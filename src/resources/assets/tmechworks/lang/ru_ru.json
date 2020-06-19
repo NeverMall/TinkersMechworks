@@ -1,0 +1,73 @@
+// This style of comment is not part of the JSON spec, but for lack of better alternative, I will use them
+
+{
+  // Blocks
+  "block.tmechworks.copper_block": "Медный блок",
+  "block.tmechworks.aluminum_block": "Алюминиевый блок",
+  "block.tmechworks.firestarter": "Поджигатель",
+  "block.tmechworks.drawbridge": "Разводной мост",
+  "block.tmechworks.copper_ore": "Медная руда",
+  "block.tmechworks.aluminum_ore": "Алюминиевая руда",
+
+  // Items
+  "item.tmechworks.book": "Механическая обработка",
+  "item.tmechworks.book.tooltip": "Лучший тип книги\\nавтор: Да Винчи",
+  //// Materials
+  "item.tmechworks.copper_ingot": "Медный слиток",
+  "item.tmechworks.copper_nugget": "Медный самородок",
+  "item.tmechworks.aluminum_ingot": "Алюминиевый слиток",
+  "item.tmechworks.aluminum_nugget": "Алюминиевый самородок",
+
+  //// Upgrades
+  "item.tmechworks.upgrade_blank": "Пустое обновление",
+  "item.tmechworks.upgrade_drawbridge_advanced": "Улучшение для разводного моста: продвинутый",
+  "item.tmechworks.upgrade_drawbridge_distance": "Улучшение для разводного моста: дистанция",
+  "item.tmechworks.upgrade_speed": "Улучшение: скорость",
+  "item.tmechworks.upgrade_drawbridge_advanced.tooltip": "Позволяет установить каждый блок, который установит подъемный мост",
+  "item.tmechworks.upgrade_drawbridge_distance.tooltip": "Расширяет дистанцию подъемного моста на %d",
+  "item.tmechworks.upgrade_speed.tooltip": "Уменьшает задержку удлинения подъемного моста на %f",
+
+  // Creative Tabs
+  "itemGroup.TinkersMechworks": "Tinkers' Mechworks",
+
+  // HUD
+  "tmechworks:tooltip.behaviour": "Режим: %s",
+  "tmechworks:tooltip.behaviour.firestarter.extinguish": "§9Потушить",
+  "tmechworks:tooltip.behaviour.firestarter.keep": "§6Режим огня",
+
+  //// Stats
+  "tmechworks:machine.stats": "§lХарактеристики",
+  "tmechworks:drawbridge.stats.advanced": "Является продвинутым: %s",
+  "tmechworks:drawbridge.stats.length": "Расширение дистанции на: %d блоков",
+  "tmechworks:drawbridge.stats.delay": "Увеличение задержки: %f",
+
+  //// State
+  "tmechworks:machine.state": "§lСостояние",
+  "tmechworks:drawbridge.state.moving": "Двигается: %s",
+  "tmechworks:drawbridge.state.extended": "Расширяется: %s",
+  "tmechworks:drawbridge.state.extendedcount": "Дистанция: %d блоков",
+
+  // Inventory
+  "tmechworks:inventory.drawbridge": "Разводной мост",
+  "tmechworks:inventory.firestarter": "Поджигатель",
+
+  // Widget
+  "tmechworks:widget.arrow.down": "Вниз",
+  "tmechworks:widget.arrow.up": "Вверх",
+  "tmechworks:widget.arrow.front": "Вперёд",
+  "tmechworks:widget.arrow.back": "Назад",
+  "tmechworks:widget.arrow.left": "Влево",
+  "tmechworks:widget.arrow.right": "Вправо",
+  "tmechworks:widget.arrow.high": "Поставить повыше",
+  "tmechworks:widget.arrow.middle": "Поставить в середине",
+  "tmechworks:widget.arrow.low": "Поставить пониже",
+
+  // GUI
+  "tmechworks:gui.upgrades": "Улучшения",
+  "tmechworks:gui.blocknum": "Блок #%d",
+  "tmechworks:gui.blacklisted": "§4ЗАБЛОКИРОВАНО",
+
+  // Integrations
+  "config.waila.plugin_tmechworks": "Tinkers' Mechworks",
+  "config.waila.plugin_tmechworks.redstone_machine": "Redstone Machines"
+}
